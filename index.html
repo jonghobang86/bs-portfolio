@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Selected - Corporate</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        
+        :root {
+            --primary-navy: #0a192f;
+            --accent-blue: #007bff;
+            --text-white: #ffffff;
+            --text-gray: #b0b0b0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Pretendard', sans-serif;
+            background-color: var(--primary-navy);
+            color: var(--text-white);
+        }
+
+        .hero-section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10%;
+        }
+
+        .hero-section h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            letter-spacing: -2px;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            color: var(--text-gray);
+            max-width: 600px;
+            margin-bottom: 3rem;
+        }
+
+        .btn-more {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            border: 1px solid var(--text-white);
+            color: var(--text-white);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-more:hover {
+            background-color: var(--text-white);
+            color: var(--primary-navy);
+        }
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+        <h1>BE SELECTED<br>VALUE DRIVEN.</h1>
+        <p>산업기계 유통의 새로운 패러다임, 비셀렉티드가 기술과 신뢰로 시장의 질서를 재정의합니다.</p>
+        <a href="#about" class="btn-more">ABOUT US</a>
+    </section>
+</body>
+</html>
